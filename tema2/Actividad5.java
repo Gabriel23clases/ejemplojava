@@ -8,15 +8,16 @@ public class Actividad5 {
 		 * no se considera un número casi-cero. Ejemplos: 0.3, –0.99 o 0.123. Y números que no se consideran casi-ceros son: 12.3, 0 o –1.*/
 		Scanner sc = new Scanner(System.in);
 		double n;
+		
 		System.out.println("Introduzca un número decimal");
 		n = sc.nextDouble();
-		System.out.println("Su número no es un casi cero");
+		
 		
 		if (n!=0 && n<1 && n>-1) {
 			System.out.println("Es casi cero");
 			}
 		
-		else {System.out.println("Es casi cero");}
+		else {System.out.println("No es casi cero");}
 	}
 
 }
